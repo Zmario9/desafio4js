@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <div>
+        <h1 id="puntos">Puntos: <span id="contador"></span> Pts.</h1>
+        <div id="flex">
+            <input id="resetear" type="button" value="Volver a iniciar">
+            <input id="activar" type="button" value="Iniciar Partida">
+        </div>
+        
+        <div id="cont1">     
+            <table id="tabla-imagenes" style="height: 500px; width: 30%;">
+            <tr>
+                <td><img class="cartasVolt" id="foto1" src="" title="Bandera Suiza"></td>
+                <td><img class="cartasVolt" id="foto2" src="" title="Cuadro de colores"></td>
+                <td><img class="cartasVolt" id="foto3" src="" title="Logo de facebook"></td>
+                <td><img class="cartasVolt" id="foto4" src="" title="Una cara de Creeper"></td>
+            </tr>
+            <tr>
+                <td><img class="cartasVolt" id="foto5" src="" title="Una cara de Creeper"></td>
+                <td><img class="cartasVolt" id="foto6" src="" title="Logo de facebook"></td>
+                <td><img class="cartasVolt" id="foto7" src="" title="Cuadro de colores"></td>
+                <td><img class="cartasVolt" id="foto8" src="" title="Bandera Suiza"></td>
+            </tr>
+            <tr>
+                <td><img class="cartasVolt" id="foto9" src="" title="Una galleta cuadrada"></td>
+                <td><img class="cartasVolt" id="foto10" src="" title="Un cubo de Rubik"></td>
+                <td><img class="cartasVolt" id="foto11" src="" title="Un bloque de slime"></td>
+                <td><img class="cartasVolt" id="foto12" src="" title="Un bloque de tierra con grama"></td>
+            </tr>
+            <tr>
+                <td><img class="cartasVolt" id="foto13" src="" title="Un bloque de tierra con grama"></td>
+                <td><img class="cartasVolt" id="foto14" src="" title="Un bloque de slime"></td>
+                <td><img class="cartasVolt" id="foto15" src="" title="Un cubo de Rubik"></td>
+                <td><img class="cartasVolt" id="foto16" src="" title="Una galleta cuadrada"></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div id="cont2">
+        <h2 id="descripcion"></h2>
+        <div id="imagen" style="display: flex; justify-content: center;">
+            
+        </div>
+    </div>
+    <div style="display: block;" id="cont3">
+        <h1><em>Historial de selección.</em></h1>
+        <ol id="lista">
+            <li id="contador1"></li>
+            <li id="contador2"></li>
+            <li id="contador3"></li>
+            <li id="contador4"></li>
+            <li id="contador5"></li>
+            <li id="contador6"></li>
+            <li id="contador7"></li>
+            <li id="contador8"></li>
+        </ol>
+    </div>
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script src="./js.cookie.min.js"></script>
+    <script src="./funciones.js"></script>
+</body>
+</html>
